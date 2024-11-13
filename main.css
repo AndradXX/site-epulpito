@@ -1,0 +1,129 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #dbdbdb;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #dbdbdb;
+    color: #000000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #dbdbdb;
+    font-family: Teko;
+}
+
+.navbar-toggler {
+    background-color: #dbdbdb;
+}
+
+.section-title {
+    font-family: Teko;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #000000;
+}
+
+.text-colored {
+    color: #262626;
+    font-family: Teko;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #000000;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #262626;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+p {
+    color: #000000;
+}
+
+#produtos img {
+    max-height: 275px;
+}
+
+#produtos h5,
+#produtos p {
+    text-align: center;
+}
+
+/* Estilo para a seção da equipe */
+.equipe {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 20px auto; /* Centraliza a seção */
+}
+
+.membro {
+    text-align: center;
+    margin: 10px;
+}
+
+.membro img {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px;
+    border-radius: 50%; /* Faz a imagem ficar circular */
+    object-fit: cover; /* Corta a imagem para se ajustar ao círculo */
+    border: 2px solid #ccc; /* Borda opcional */
+}
+
+h3 {
+    margin: 10px 0 5px;
+}
+
+p {
+    margin: 0;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 767px) {
+    .carousel-item img {
+        max-height: 280px;
+    }
+    #produtos img {
+        max-height: 1000px;
+    }
+    .equipe {
+        flex-direction: column; /* Empilha as fotos em telas menores */
+        align-items: center; /* Centraliza os itens */
+    }
+}
+
+@media (min-width: 768px) {
+    .container-img {
+        width: 100%;
+        max-height: 235px;
+        object-fit: cover;
+    }
+
+    .container-img img {
+        width: 100%;
+        max-height: 235px;
+        display: block;
+    }
+}

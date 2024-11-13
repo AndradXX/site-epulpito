@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ePulpito</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-3">ePulpito</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-question-lg"></i>
+                            Sobre o ePúlpito
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ambientes" class="nav-link">
+                            <i class="bi bi-check-square"></i>
+                            Nosso Projeto
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-camera"></i>
+                            Fotos do ePulpito
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-people"></i>
+                            Nossa Equipe
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg" class="d-block w-100" alt="Foto pele ambientada">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" class="d-block w-100" alt="Foto tapete ambientado">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" class="d-block w-100" alt="Foto tapete">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/slogan.jpeg" class="d-block w-100 rounded"
+                                alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o ePulpito</span></h2>
+                            <p> O ePúlpito, ideia concedida pelo professor Alberto Ciarcia Júnior, é uma solução inovadora para apresentações interativas em auditórios e eventos. 
+                                Construído em madeira MDF e equipado com uma tela touchscreen, o sistema opera com o BigLinux e hardware específico, permitindo que o palestrante controle a apresentação sem depender de um computador, 
+                                o que reduz interrupções. Estudos indicam que tecnologias interativas, como o ePúlpito, melhoram a retenção de informações. 
+                                O sistema tem sido bem avaliado por sua eficácia e praticidade, com um script automático para manter o software sempre atualizado. 
+                                O projeto contribui para o auditório ao promover tecnologias acessíveis e de código aberto e serve como um modelo para futuras inovações em apresentações.                          
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ambientes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nosso <span class="text-colored">Projeto</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="container-img">
+                            <img src="images/ambientes/hardware.png" alt="" class="d-block w-100 rounded mb-2">
+                        </div>
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-motherboard"></i>
+                            Hardware
+                        </h3>
+                        <p>
+                            O hardware consiste em uma doação do professor Alessandro Garcia e se consiste em:
+                            <ul>
+                                <li>I3 de 2° Geração</li>
+                                <li>4GB de memória RAM</li>
+                                <li>SSD de 120 GB</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="container-img">
+                            <img src="images/ambientes/mdf.jpg" alt="" class="d-block  height-auto rounded mb-2">
+                        </div>
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-stack"></i>
+                            Material Usado - Madeira MDF
+                        </h3>
+                        <p>
+                            O MDF é uma excelente escolha para montar um púlpito porque oferece um acabamento suave e de alta qualidade, 
+                            é mais estável e durável do que o MDP e o plástico, e é mais fácil de trabalhar do que o metal. 
+                            Além disso, proporciona um bom custo-benefício.
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="container-img">
+                            <img src="images/ambientes/biglinux.png" alt="" class="d-block w-100 rounded mb-2">
+                        </div>
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-cpu"></i>
+                            Sistema Operacional - BigLinux
+                        </h3>
+                        <p>
+                            O BigLinux é uma distribuição brasileira do sistema operacional Linux, baseada no Debian. 
+                            É projetado para ser fácil de usar, com uma interface amigável e aplicativos pré-instalados, 
+                            ideal para quem quer uma alternativa simples e funcional ao Windows ou macOS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Video <span class="text-colored">Pitch</span>
+                    </h2>
+                    <iframe width="720" height="360" src="https://www.youtube.com/embed/IqlQtA12yas?si=qGAiTB4c4q82BAtd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                  
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossa <span class="text-colored">Equipe</span></h2>
+                </div>
+                <div class="equipe">
+                    <div class="membro">
+                        <img src="images\fotos\foto1.jpeg" alt="Nome 1">
+                        <h3>Daniel Della Líbera Victor Batista</h3>
+                        <p>Gerente de projetos</p>
+                    </div>
+                    <div class="membro">
+                        <img src="images\fotos\foto2.jpeg" alt="Nome 2">
+                        <h3>Daniel Félix Andrade</h3>
+                        <p>Gerente de Hardware/Software</p>
+                    </div>
+                    <div class="membro">
+                        <img src="images\fotos\foto3.jpeg" alt="Nome 3">
+                        <h3>Diego Sant'anna Mota</h3>
+                        <p>Designer</p>
+                    </div>
+                    <div class="membro">
+                        <img src="images\fotos\foto4.jpeg" alt="Nome 4">
+                        <h3>Erick de Souza Feitosa</h3>
+                        <p>Redator Acadêmico/Gerente de Software</p>
+                    </div>
+                    <div class="membro">
+                        <img src="images\fotos\foto5.jpeg" alt="Nome 5">
+                        <h3>Gabriel Akira Yamamoto Endo</h3>
+                        <p>Designer 3D/Gerente de Hardware</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/jQuery.js"></script>
+    <script src="./libs/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $('#telefone').mask('(00) 00000-0000')
+        })
+
+    </script>
+</body>
+
+</html>
